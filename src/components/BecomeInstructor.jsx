@@ -49,9 +49,8 @@ export default function BecomeInstructor() {
               Join us as an instructor.
             </motion.h2>
 
-            <svg className="w-28 h-3 text-ecoach-blue mt-4 mb-8" viewBox="0 0 100 12" preserveAspectRatio="none">
-              <path d="M2,9 Q50,2.5 98,8.5" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" opacity="0.9" />
-              <path d="M5,10 Q48,3.5 95,9" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.4" />
+            <svg className="w-28 h-2.5 text-ecoach-blue mt-4 mb-8" viewBox="0 0 100 10" preserveAspectRatio="none">
+              <path d="M3,9 Q50,2 97,9" stroke="currentColor" strokeWidth="3.5" fill="none" strokeLinecap="round" />
             </svg>
 
             <motion.p
@@ -133,7 +132,7 @@ export default function BecomeInstructor() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.5, type: 'spring', stiffness: 100 }}
                 whileHover={{ scale: 1.05 }}
-                className="absolute -bottom-8 -left-4 z-20 flex items-center gap-4 bg-white border border-slate-100 shadow-xl p-5 rounded-lg"
+                className="absolute -bottom-8 left-4 sm:-left-4 z-20 flex items-center gap-4 bg-white border border-slate-100 shadow-xl p-5 rounded-lg"
               >
                 <div className="w-14 h-14 rounded bg-[#FFA700] flex items-center justify-center text-white shadow-md">
                   <Users className="w-7 h-7" />

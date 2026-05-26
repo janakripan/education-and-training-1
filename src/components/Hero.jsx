@@ -138,7 +138,7 @@ export default function Hero() {
                 initial={{ scale: 0, rotate: -20 }}
                 animate={{ scale: 1, rotate: 0 }}
                 transition={{ delay: 0.6, type: 'spring', stiffness: 120 }}
-                className="absolute left-[-24px] top-[45%] z-20 w-16 h-16 rounded bg-ecoach-blue flex items-center justify-center shadow-lg text-white"
+                className="absolute left-[-12px] sm:left-[-24px] top-[45%] z-20 w-16 h-16 rounded bg-ecoach-blue flex items-center justify-center shadow-lg text-white"
               >
                 <Star className="w-7 h-7 fill-white text-white" />
               </motion.div>

@@ -16,7 +16,7 @@ export default function CTA() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="font-heading font-black text-3xl sm:text-4xl text-white tracking-tight mb-4"
+              className="font-heading font-black text-3xl sm:text-[46px] text-white tracking-tight mb-4 leading-tight"
             >
               Finding Your Right Courses
             </motion.h2>

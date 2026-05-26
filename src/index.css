@@ -43,18 +43,20 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
-body {
-  font-family: var(--font-sans);
-  background-color: #FFFFFF;
-  overflow-x: hidden;
-  color: var(--color-ecoach-gray);
-  margin: 0;
-  padding: 0;
-}
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    color: var(--color-ecoach-gray);
+    margin: 0;
+    padding: 0;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
-  color: var(--color-ecoach-dark);
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-ecoach-dark);
+  }
 }
 
 /* Custom scrollbar */

@@ -125,8 +125,8 @@ export default function Stats() {
             <motion.div
               key={idx}
               variants={statVariants}
-              className={`flex flex-col items-center justify-center px-8 ${
-                idx < 2 ? 'md:border-r md:border-white/20' : ''
+              className={`flex flex-col items-center justify-center px-8 pb-8 md:pb-0 ${
+                idx < 2 ? 'border-b border-white/10 md:border-b-0 md:border-r md:border-white/20' : ''
               }`}
             >
               {/* Stat Value (Animated) */}

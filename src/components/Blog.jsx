@@ -74,9 +74,8 @@ export default function Blog() {
             Stay updated with our news and blog.
           </motion.h2>
           
-          <svg className="w-28 h-3 text-ecoach-blue mx-auto mt-4" viewBox="0 0 100 12" preserveAspectRatio="none">
-            <path d="M2,9 Q50,2.5 98,8.5" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="round" opacity="0.9" />
-            <path d="M5,10 Q48,3.5 95,9" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.4" />
+          <svg className="w-28 h-2.5 text-ecoach-blue mx-auto mt-4" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <path d="M3,9 Q50,2 97,9" stroke="currentColor" strokeWidth="3.5" fill="none" strokeLinecap="round" />
           </svg>
         </div>
 
@@ -86,7 +85,7 @@ export default function Blog() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: '-50px' }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16"
         >
           {posts.map((post, idx) => (
             <motion.div
